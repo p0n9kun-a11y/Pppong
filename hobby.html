@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์ของฉัน</title>
+    <style>
+        /* กำหนดสไตล์ของเว็บไซต์ */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+        }
+
+        /* ส่วนหัว */
+        header {
+            background-color: #4A90E2;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* เมนู */
+        nav {
+            text-align: center;
+            background-color: #fff;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* ส่วนเนื้อหา */
+        .content {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            text-align: center;
+        }
+
+        /* การจัดกลุ่มรูปภาพ */
+        .hobby-gallery {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .hobby-item {
+            width: 30%;
+            text-align: center;
+        }
+
+        .hobby-item img {
+            width: 100%;
+            border-radius: 8px;
+            border: 2px solid #ddd;
+        }
+
+        .hobby-item p {
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* ส่วนท้าย */
+        footer {
+            background-color: #834545;
+            color: #f38b8b;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.8em;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- ส่วนหัว -->
+    <header>
+        <h1>ยินดีต้อนรับสู่เว็บไซต์ของฉัน</h1>
+    </header>
+
+    <!-- เมนู -->
+    <nav>
+        <a href="index.html">หน้าแรก</a>
+        <a href="hobby.html">งานอดิเรก</a>
+        <a href="skill.html">ความฝันของฉัน</a>
+    </nav>
+
+    <!-- ส่วนเนื้อหา -->
+    <section class="content">
+        <h2>งานอดิเรกของฉัน</h2>
+        <p>นี่คือภาพกิจกรรมที่ฉันชอบทำจากความคิดเห็นของฉัน:</p>
+        
+        <!-- การจัดกลุ่มรูปภาพ -->
+        <div class="hobby-gallery">
+            <div class="hobby-item">
+                <img src="32(57).jpg" alt="เล่นเกม">
+                <p>เล่นเกม: ทำให้ได้รับความสนุก</p>
+            </div>
+            <div class="hobby-item">
+                <img src="walking.jpg" alt="เดินเล่น">
+                <p>เดินเล่น: ช่วยให้ร่างกายแข็งแรง</p>
+            </div>
+            <div class="hobby-item">
+                <img src="ปกบทความ2.webp" alt="วาดภาพ">
+                <p>วาดภาพต่างๆ: ได้ฝึกความคิดสร้างสรรค์</p>
+            </div>
+        </div>
+    </section>
+    <!-- ส่วนท้าย -->
+    <footer>
+        <p>© 2026 สร้างโดย เด็กชาย ปองคุณ คำเครื่อง</p>
+    </footer>
+</body>
+</html>
+
